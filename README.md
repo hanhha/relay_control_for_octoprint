@@ -4,13 +4,19 @@ This script targets to #active low# relay modules. I uses 2 cheap modules that a
 
 Below is my setup. I control both wires of AC power supplier.
 
-\---          ---------------------------------
-|RPI|--------|2 channels relay module/2 modules|
-\---          ---------------------------------
-                    |      |
-           hot wire |      | cold wire 
-                    |      |
-               -----------------
-              |AC power supplier|
-              |for my 3D printer|
-               -----------------
+            -------          
+           |  RPI  |  
+            -------  
+               |  
+               |  
+      ---------------------------------  
+     |2 channels relay module/2 modules|  
+      ---------------------------------  
+                  |      |  
+         hot wire |      | cold wire   
+                  |      |  
+             -----------------   
+            |AC power supplier|              
+            |for my 3D printer|              
+             -----------------  
+       

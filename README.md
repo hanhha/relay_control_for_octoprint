@@ -6,12 +6,12 @@ After appropriately wiring hardware, copy the script somewhere and add these lin
 ```
 system:  
   actions:  
-  - action: printer on  
+  - action: printer_on  
     command: python <your path>/control_pwr.py on  
     name: Turn on the printer  
-  - action: printer off  
+  - action: printer_off  
     command: python <your path>/control_pwr.py off  
-    confirm: You are about to turn off the printer.  
+    confirm: You are about to turn off the printer. It's better to disconnect the printer first if you didn't.  
     name: Turn off the printer  
 ```
 Below is my setup. I control both wires of AC power supplier.

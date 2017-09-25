@@ -36,7 +36,7 @@ def __main__():
             power_on()
         elif sys.argv[1] == "off":
             power_off()
-        elif sys.argv[1] == "toogle": 
+        elif sys.argv[1] == "toggle": 
             power_toggle()
     else:
         power_toggle() # default toggle
